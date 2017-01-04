@@ -209,21 +209,21 @@ top-of-the-line formal.
 <div class="cell-md-6">
 <div class="form-group">
 <label for="contact-name" class="form-label">Your Name</label>
-<input id="txt-contact-name" type="text" name="name" data-constraints="@Required" class="form-control">
+<input id="contact-name" type="text" name="name" data-constraints="@Required" class="form-control">
 </div>
 <div class="form-group">
 <label for="contact-email" class="form-label">Your Email</label>
-<input id="txt-contact-email" type="email" name="email" data-constraints="@Required @Email" class="form-control">
+<input id="contact-email" type="email" name="email" data-constraints="@Required @Email" class="form-control">
 </div>
 <div class="form-group">
 <label for="contact-phone" class="form-label">Your Phone</label>
-<input id="txt-contact-phone" type="text" name="phone" data-constraints="@Required @Integer" class="form-control">
+<input id="contact-phone" type="text" name="phone" data-constraints="@Required @Integer" class="form-control">
 </div>
 </div>
 <div class="cell-md-6 offset-top-5 offset-md-top-0">
 <div class="form-group">
 <label for="contact-message" class="form-label">Message</label>
-<textarea id="txt-contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
+<textarea id="contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
 </div>
 </div>
 <div class="cell-md-12 text-md-right offset-top-30">

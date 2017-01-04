@@ -346,9 +346,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="sendMailManager\SendMail\SendMailManager.csproj">
-      <Project>{416dc7a9-623c-47f3-8b58-15d89ebd1da0}</Project>
-      <Name>SendMailManager</Name>
+    <ProjectReference Include="MailManager\MailManager.csproj">
+      <Project>{131b5529-f154-4246-9d21-44c43946eff4}</Project>
+      <Name>MailManager</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

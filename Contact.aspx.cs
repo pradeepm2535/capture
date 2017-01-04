@@ -18,10 +18,10 @@ namespace WebApplication17
 
         protected void btnSendMessage_Click(object sender, EventArgs e)
         {
-            var yourName = Request.Form["txt-contact-name"];
-            var contactEmail = Request.Form["txt-contact-email"];
-            var contactPhone = Request.Form["txt-contact-phone"];
-            var messageToBeSent = Request.Form["txt-contact-message"];
+            var yourName = Request.Form["name"];
+            var contactEmail = Request.Form["email"];
+            var contactPhone = Request.Form["phone"];
+            var messageToBeSent = Request.Form["message"];
 
             SendMailerController.SendMail(yourName,contactEmail,contactPhone,messageToBeSent);
 
