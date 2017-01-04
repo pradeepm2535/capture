@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="WebApplication17.WebForm1" %>
+
+<!DOCTYPE html>
+
 <html lang="en" class="wide wow-animation smoothscroll">
 <head>
 
@@ -202,7 +205,7 @@ top-of-the-line formal.
 <p class="offset-top-20">If you have any ideas to offer us or would like to know more about our services, you can also call our administrators regarding the questions or suggestions you have.</p>
 </div>
 <div class="cell-md-8">
-<form data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="range rd-mailform">
+<form data-form-output="form-output-global" data-form-type="contact" id ="frmContact" runat="server" class="range rd-mailform">
 <div class="cell-md-6">
 <div class="form-group">
 <label for="contact-name" class="form-label">Your Name</label>
@@ -224,7 +227,7 @@ top-of-the-line formal.
 </div>
 </div>
 <div class="cell-md-12 text-md-right offset-top-30">
-<button type="submit" class="link">Send message</button>
+<asp:Button CssClass ="link" Text ="Send Message" ID="btnSendMessage" runat="server" OnClick="btnSendMessage_Click"/>
 </div>
 </form>
 </div>
